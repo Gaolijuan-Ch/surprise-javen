@@ -360,7 +360,7 @@
 
     <script>
       // 图片路径
-      const yourImageSource = "./图片.png";
+      const yourImageSource = "./图片.jpg";
 
       // 阶段1
       const modalMessages = [
@@ -524,7 +524,7 @@
         // 创建隐藏的<a>标签触发下载
         const link = document.createElement("a");
         link.href = yourImageSource; // 指向本地图片路径
-        link.download = "Surprise.png"; // 下载保存的默认文件名
+        link.download = "Surprise.jpg"; // 下载保存的默认文件名
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
